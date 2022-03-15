@@ -2,7 +2,7 @@
 	<img
 	width="150"
 	src="/images/max-terminal.gif"></br>
-	Tutorial Name<br>     
+	Maven Files<br>     
 </h1>
 
 <h4 align="center">
@@ -13,46 +13,33 @@
 </h4>
 	
 <h3 align="center">
-	This is the tutorial short description<br><br>
+	In this repository, you can find some maven files examples that will help you for other tutorials.<br><br>
 </h3>
-
-## Tutorial and Video
-
-For a step by step tutorial navigate to the MuleSoft developer website [here](https://www.youtube.com/watch?v=5Xd5B_twt9w)
-
-For a video of the tutorial go [here](https://www.youtube.com/watch?v=5Xd5B_twt9w).
 
 ## Overview
 
-Detailed Description
+Take these files as example or to use as your own for other tutorials that may require you to use Maven.
 
-> This sample application is designed to run on MuleSoft's Anypoint Platform.
+- If you're following the [Custom Policy Tutorial](https://developer.mulesoft.com), you can find the example file [here](/CustomPolicyTutorial/settings.xml).
+- For a general example with comments and instructions, go to [this file](/FullSettingsFile/settings.xml).
 
 ## Installation Instructions
 
-Install instructions
-
-1. Set up your environment.
-
-<a href="https://anypoint.mulesoft.com/login/signup" ><img width="250" src="/images/start-platform.png"><a>
-	
-<a href="https://www.mulesoft.com/lp/dl/studio" ><img width="250" src="/images/download-studio.png"><a>
-	
-<a href="https://developer.mulesoft.com/learn/dataweave" ><img width="250" src="/images/open-dataweave.png"><a>
-
-2. Clone this repository.
-
-3. In Anypoint Studio, select `File` > `Import` > `Anypoint Studio` > `Anypoint Studio project from File System` and click Next.
-
-4. Select the cloned repository in the Project Root and make sure to **uncheck** the `Copy project into workspace` option.
-
-5. Click on Finish.
+1. Go to the example file you need to follow your tutorial
+2. Download the file or copy its contents
+3. Put the file inside the `.m2` folder or create a new one and paste its contents
+4. Don't forget to add your own credentials!
 
 ## FAQs
 
-#### How do I ?
+#### Where do I find my .m2 folder?
 
-Answer.
+- For Windows: `C:\Users\<user>\.m2`
+- For Mac: `${user.home}/.m2`
+
+#### What if I don't have an .m2 folder?
+
+- Make sure you have installed [Maven](https://maven.apache.org/install.html).
 
 ## Contributing
 
@@ -64,7 +51,7 @@ See [contributing.md](/contributing.md) for the MuleSoft Developer principles.
 
 #### Dependencies
 
--   xxx
+-   [Maven](https://maven.apache.org/install.html)
 
 #### Code formatting
 
