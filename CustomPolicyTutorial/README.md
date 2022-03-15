@@ -1,6 +1,6 @@
 # Custom Policy Tutorial
 
-This `settings.xml` file is created for the [custom policy tutorial](https://developer.mulesoft.com/).
+This [settings.xml](/settings.xml) file is created for the [custom policy tutorial](https://developer.mulesoft.com/).
 
 To use this file, you can either download it or copy the content and paste it on your own file. Make sure it's inside the `.m2` folder.
 - For Windows: `C:\Users\<user>\.m2`
