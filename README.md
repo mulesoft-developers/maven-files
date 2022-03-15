@@ -20,7 +20,7 @@
 
 Take these files as example or to use as your own for other tutorials that may require you to use Maven.
 
-- If you're following the [Custom Policy Tutorial](https://developer.mulesoft.com), you can find the example file [here](/CustomPolicyTutorial/settings.xml).
+- If you're following the [Custom Policy Tutorial](https://developer.mulesoft.com), you can find the example file and the instructions [here](/CustomPolicyTutorial).
 - For a general example with comments and instructions, go to [this file](/FullSettingsFile/settings.xml).
 
 ## Installation Instructions
