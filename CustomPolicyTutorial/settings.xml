@@ -8,30 +8,55 @@
 
   <servers>
     <server>
-       <id>exchange-server</id>
-       <username>[---place your Anypoint Platform username here---]</username>
-       <password>[---place your Anypoint Platform password here---]</password>
-     </server>
+      <id>MuleRepository</id>
+      <username>[---place your Nexus username here---]</username>
+      <password>[---place your Nexus password here---]</password>
+    </server>
+    <server>
+      <id>exchange-server</id>
+      <username>[---place your Anypoint Platform username here---]</username>
+      <password>[---place your Anypoint Platform password here---]</password>
+    </server>
   </servers>
 
   <profiles>
     <profile>
-     <id>archetype-repository</id>
-     <repositories>
-       <repository>
-         <id>archetype</id>
-         <name>Mule Repository</name>
-         <url>https://repository-master.mulesoft.org/nexus/content/repositories/public</url>
-         <releases>
-           <enabled>true</enabled>
-           <checksumPolicy>fail</checksumPolicy>
-         </releases>
-         <snapshots>
-           <enabled>true</enabled>
-           <checksumPolicy>warn</checksumPolicy>
-         </snapshots>
-       </repository>
-     </repositories>
-   </profile>
+      <id>archetype-repository</id>
+      <repositories>
+        <repository>
+          <id>archetype</id>
+          <name>Mule Repository</name>
+          <url>https://repository-master.mulesoft.org/nexus/content/repositories/public</url>
+          <releases>
+            <enabled>true</enabled>
+            <checksumPolicy>fail</checksumPolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <checksumPolicy>warn</checksumPolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+    <profile>
+      <id>Mule</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>MuleRepository</id>
+          <name>MuleRepository</name>
+          <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
   </profiles>
 </settings>

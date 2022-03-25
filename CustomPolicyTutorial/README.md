@@ -7,8 +7,8 @@ To use this file, you can either download it or copy the content and paste it on
 - For Mac: `${user.home}/.m2`
 
 Once you have it in your local computer, replace the following credentials in the `server` section:
-1. Replace the `username` field with your Anypoint Platform username.
-2. Replace the `password` field with your Anypoint Platform password.
+1. For `MuleRepository`, replace the `username` and `password` fields with your Mule EE Nexus repository credentials.
+3. For `exchange-server`, replace the `username` and `password` fields with your Anypoint Platform credentials.
 
 For example, if you access [Anypoint Platform](https://anypoint.mulesoft.com) with the username `maxthemule` and password `maxrocks`, then your credentials should look like this:
 
