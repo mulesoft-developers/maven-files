@@ -20,7 +20,7 @@
 
 Take these files as example or to use as your own for other tutorials that may require you to use Maven.
 
-- If you're following the [Custom Policy Tutorial](https://developer.mulesoft.com), you can find the example file and the instructions [here](/CustomPolicyTutorial).
+- If you're following the [Circuit Breaker Policy tutorial](https://developer.mulesoft.com/tutorials-and-howtos/custom-api-policies-api-manager-circuit-breaker-policy/), you can find the example file and the instructions [here](/CircuitBreakerPolicy).
 - For a general example with comments and instructions, go to [this file](/FullSettingsFile/settings.xml).
 
 ## Installation Instructions
