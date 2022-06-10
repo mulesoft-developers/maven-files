@@ -1,6 +1,6 @@
 # DataWeave Library in Exchange tutorial
 
-This `settings.xml` file is created for the [DataWeave Library in Exchange tutorial](https://developer.mulesoft.com).
+This `settings.xml` file is created for the [DataWeave Library in Exchange tutorial](https://developer.mulesoft.com/tutorials-and-howtos/dataweave/dataweave-libraries-in-exchange-getting-started/).
 
 To use this file, you can either download it or copy the content and paste it on your own file. Make sure it's inside the `.m2` folder.
 - For Windows: `C:\Users\<user>\.m2`
